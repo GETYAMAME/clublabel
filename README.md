@@ -1,4 +1,5 @@
 # clublabel
+クラブハウス用のアイコンにメッセージ付きのラベルを設定できるサービス（になる予定）
 
 ## Build Setup
 
@@ -19,5 +20,5 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-# Site
+## Site
 https://upbeat-kilby-a61374.netlify.app/
