@@ -1,11 +1,11 @@
 <template>
-  <v-app>
+  <v-app light>
     <v-app-bar
       :clipped-left="clipped"
       fixed
       app
     >
-    <span>ClubHouse用ラベルメーカー</span>
+    <span>🌈 ClubHouse用ラベルメーカー</span>
     </v-app-bar>
     <v-main>
       <v-container>

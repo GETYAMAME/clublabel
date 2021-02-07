@@ -3,19 +3,23 @@
     <v-main>
       <v-container>
         <v-row justify="center">
+          <v-col cols="2"></v-col>
           <v-col cols="8">
             <p><canvas id="preview"></canvas></p>            
             <v-card>
               <v-card-title><input type="file" ref="preview" @change="uploadFile"></v-card-title>    
             </v-card>
             <br>
-            <v-card>
-              <v-card-title>
-                <input type="text" id="canvas_text" value="作業中">
-                <button @click="drawText('preview', 'canvas_text');">文字を描く</button>
-              </v-card-title>    
-            </v-card>
+            <v-text-field id="canvas_text" label="設定したい文字を入力してください（例：作業中、移動中など）" value="作業中"></v-text-field>
+            <v-btn
+              color="secondary"
+              depressed
+              elevation="2"
+              large
+              @click="drawText('preview', 'canvas_text');"
+            >文字を描く</v-btn>
           </v-col>
+          <v-col cols="2"></v-col>
         </v-row>
       </v-container>
     </v-main>
