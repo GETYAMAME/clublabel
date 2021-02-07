@@ -1,4 +1,4 @@
-# clublabel
+# club label
 クラブハウス用のアイコンにメッセージ付きのラベルを設定できるサービス（になる予定）
 
 ## Build Setup
