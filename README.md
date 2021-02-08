@@ -21,4 +21,4 @@ $ yarn generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Site
-https://upbeat-kilby-a61374.netlify.app/
+https://clublabel.net/
